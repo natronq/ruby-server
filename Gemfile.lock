@@ -192,7 +192,7 @@ DEPENDENCIES
   capistrano-rvm
   capistrano-sidekiq
   dotenv-rails (~> 2.1.1)
-  mysql2 (>= 0.3.13, < 0.5)
+  pg
   puma
   rack-cors
   rails (= 5.0.1)

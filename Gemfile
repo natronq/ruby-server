@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '5.0.1'
 
-gem 'mysql2', '>= 0.3.13', '< 0.5'
+gem 'pg', '~> 0.18'
 
 gem 'rack-cors', :require => 'rack/cors'
 

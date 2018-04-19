@@ -4,7 +4,7 @@ ENV PROJECT_DIR=/data/src/
 
 RUN DEBIAN_FRONTEND=noninteractive \
     apt-get -y update && \
-    apt-get -y install git build-essential ruby-dev ruby-rails libz-dev libmysqlclient-dev curl tzdata && \
+    apt-get -y install libpq-dev git build-essential ruby-dev ruby-rails libz-dev libmysqlclient-dev curl tzdata && \
     curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
     apt-get -y update && \
     apt-get -y install nodejs && \
